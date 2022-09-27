@@ -31,7 +31,6 @@ const list = (args) => {
   const req = http.request(options, (res) => {
     let dataResult = "";
     let parsedResult;
-    console.log(`statusCode: ${res.statusCode}`);
     res.on("data", (chunk) => {
       dataResult += chunk;
     });
