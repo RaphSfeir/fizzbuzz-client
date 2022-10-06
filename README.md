@@ -2,7 +2,7 @@
 
 ## Installation
 
-Run `npm i -g` in the `package.json`'s directory. 
+First, run `npm install` to install the required packages, then run `npm i -g` in the `package.json`'s directory. 
 Try out the CLI command by simply trying:
 
 `fizzbuzz`
